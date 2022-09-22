@@ -1,0 +1,183 @@
+// 这里提供几套主题皮肤
+html.bule {
+    /* primary */
+    --el-color-primary: rgba(26,144,253);
+    --el-color-primary-light-3: rgb(118, 184, 245);
+    --el-color-primary-light-5: rgb(170, 210, 247);
+    --el-color-primary-light-7: rgb(217, 231, 245);
+    --el-color-primary-light-8: rgb(234, 239, 243);
+    --el-color-primary-light-9: rgb(229, 234, 238);
+    --el-color-primary-dark-2: rgba(26,144,253);
+
+    /* text-color */
+    // --el-text-color-primary: #fff;
+    // --el-text-color-regular: #fff;
+    // --el-text-color-secondary: #fff;
+    // --el-text-color-placeholder: #fff;
+    // --el-text-color-disabled: #fff;
+    
+}
+html.green {
+    /* primary */
+    --el-color-primary: rgba(1,120,64);
+    --el-color-primary-light-3: rgb(55, 117, 88);
+    --el-color-primary-light-5: rgb(85, 126, 107);
+    --el-color-primary-light-7: rgb(107, 133, 121);
+    --el-color-primary-light-8: rgb(189, 223, 207);
+    --el-color-primary-light-9: rgb(229, 243, 236);
+    --el-color-primary-dark-2: rgba(1,120,64);
+}
+html.red {
+    /* primary */
+    --el-color-primary: #f34f4f;
+    --el-color-primary-light-3: #f38787;
+    --el-color-primary-light-5: #f3b0b0;
+    --el-color-primary-light-7: #f0cdcd;
+    --el-color-primary-light-8: #f7e2e2;
+    --el-color-primary-light-9: #f0dddd;
+    --el-color-primary-dark-2: #810a0a;
+}
+html.purple {
+    /* primary */
+    --el-color-primary: #830a83;
+    --el-color-primary-light-3: #994f99;
+    --el-color-primary-light-5: #946d94;
+    --el-color-primary-light-7: #a58ca5;
+    --el-color-primary-light-8: #9c959c;
+    --el-color-primary-light-9: #e0d6e0;
+    --el-color-primary-dark-2: #500550;
+}
+html.pink {
+    /* primary */
+    --el-color-primary: #ffc0cb;
+    --el-color-primary-light-3: #fdd6dd;
+    --el-color-primary-light-5: #faedef;
+    --el-color-primary-light-7: #f5eced;
+    --el-color-primary-light-8: #f3e7e9;
+    --el-color-primary-light-9: #f7f3f4;
+    --el-color-primary-dark-2: #b48d94;
+}
+html.black {
+    /* primary */
+    --el-color-primary: rgba(28,33,51);
+    --el-color-primary-light-3: rgb(19, 21, 26);
+    --el-color-primary-light-5: rgb(39, 40, 46);
+    --el-color-primary-light-7: rgb(78, 79, 82);
+    --el-color-primary-light-8: rgb(136, 137, 139);
+    --el-color-primary-light-9: rgb(191, 193, 199);
+    --el-color-primary-dark-2: rgba(28,33,51);
+}
+html.classic-bule {
+    /* primary */
+    --el-color-primary: #03305c;
+    --el-color-primary-light-3: #486a8d;
+    --el-color-primary-light-5: #718aa3;
+    --el-color-primary-light-7: #adb9c5;
+    --el-color-primary-light-8: #cdd8e4;
+    --el-color-primary-light-9: #dae7f5;
+    --el-color-primary-dark-2: #092846;
+}
+
+
+// 使用css变量修改
+:root {
+    /* 项目中 全局变量在此定义 */
+    --qz-ksv-layout-aside-width: 220px; 
+    /* 
+    *element-plus
+    */
+    color-scheme: light;
+    --el-color-white: #ffffff;
+    --el-color-black: #000000;
+    /* primary */
+    --el-color-primary: #409eff;
+    --el-color-primary-light-3: #79bbff;
+    --el-color-primary-light-5: #a0cfff;
+    --el-color-primary-light-7: #c6e2ff;
+    --el-color-primary-light-8: #d9ecff;
+    --el-color-primary-light-9: #ecf5ff;
+    --el-color-primary-dark-2: #0b80f5;
+    /* success */
+    --el-color-success: #67c23a;
+    --el-color-success-light-3: #95d475;
+    --el-color-success-light-5: #b3e19d;
+    --el-color-success-light-7: #d1edc4;
+    --el-color-success-light-8: #e1f3d8;
+    --el-color-success-light-9: #f0f9eb;
+    --el-color-success-dark-2: #529b2e;
+    /* warning */
+    --el-color-warning: #e6a23c;
+    --el-color-warning-light-3: #eebe77;
+    --el-color-warning-light-5: #f3d19e;
+    --el-color-warning-light-7: #f8e3c5;
+    --el-color-warning-light-8: #faecd8;
+    --el-color-warning-light-9: #fdf6ec;
+    --el-color-warning-dark-2: #b88230;
+    /* danger */
+    --el-color-danger: hsl(0, 87%, 69%);
+    --el-color-danger-light-3: #f89898;
+    --el-color-danger-light-5: #fab6b6;
+    --el-color-danger-light-7: #fcd3d3;
+    --el-color-danger-light-8: #fde2e2;
+    --el-color-danger-light-9: #fef0f0;
+    --el-color-danger-dark-2: #c45656;
+    /* error */
+    --el-color-error: #f56c6c;
+    --el-color-error-light-3: #f89898;
+    --el-color-error-light-5: #fab6b6;
+    --el-color-error-light-7: #fcd3d3;
+    --el-color-error-light-8: #fde2e2;
+    --el-color-error-light-9: #fef0f0;
+    --el-color-error-dark-2: #c45656;
+    /* info */
+    --el-color-info: #909399;
+    --el-color-info-light-3: #b1b3b8;
+    --el-color-info-light-5: #c8c9cc;
+    --el-color-info-light-7: #dedfe0;
+    --el-color-info-light-8: #e9e9eb;
+    --el-color-info-light-9: #f4f4f5;
+    --el-color-info-dark-2: #73767a;
+    /* bg */
+    --el-bg-color: #ffffff;
+    --el-bg-color-page: #f2f3f5;
+    --el-bg-color-overlay: #ffffff;
+    /* text-color */
+    --el-text-color-primary: #303133;
+    --el-text-color-regular: #606266;
+    --el-text-color-secondary: #909399;
+    --el-text-color-placeholder: #a8abb2;
+    --el-text-color-disabled: #c0c4cc;
+    /* border-color */
+    --el-border-color: #dcdfe6;
+    --el-border-color-light: #e4e7ed;
+    --el-border-color-lighter: #ebeef5;
+    --el-border-color-extra-light: #f2f6fc;
+    --el-border-color-dark: #d4d7de;
+    --el-border-color-darker: #cdd0d6;
+    /* fill-color */
+    --el-fill-color: #f0f2f5;
+    --el-fill-color-light: #f5f7fa;
+    --el-fill-color-lighter: #fafafa;
+    --el-fill-color-extra-light: #fafcff;
+    --el-fill-color-dark: #ebedf0;
+    --el-fill-color-darker: #e6e8eb;
+    --el-fill-color-blank: #ffffff;
+    /* box-shadow */
+    --el-box-shadow: 0px 12px 32px 4px rgba(0, 0, 0, 0.04), 0px 8px 20px rgba(0, 0, 0, 0.08);
+    --el-box-shadow-light: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    --el-box-shadow-lighter: 0px 0px 6px rgba(0, 0, 0, 0.12);
+    --el-box-shadow-dark: 0px 16px 48px 16px rgba(0, 0, 0, 0.08), 0px 12px 32px rgba(0, 0, 0, 0.12), 0px 8px 16px -8px rgba(0, 0, 0, 0.16);
+    --el-disabled-bg-color: var(--el-fill-color-light);
+    --el-disabled-text-color: var(--el-text-color-placeholder);
+    --el-disabled-border-color: var(--el-border-color-light);
+    --el-overlay-color: rgba(0, 0, 0, 0.8);
+    --el-overlay-color-light: rgba(0, 0, 0, 0.7);
+    --el-overlay-color-lighter: rgba(0, 0, 0, 0.5);
+    --el-mask-color: rgba(255, 255, 255, 0.9);
+    --el-mask-color-extra-light: rgba(255, 255, 255, 0.3);
+    --el-border-width: 1px;
+    --el-border-style: solid;
+    --el-border-color-hover: var(--el-text-color-disabled);
+    --el-border: var(--el-border-width) var(--el-border-style) var(--el-border-color);
+    --el-svg-monochrome-grey: var(--el-border-color);
+}

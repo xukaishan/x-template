@@ -1,0 +1,18 @@
+import { createApp } from 'vue';
+import { setupRouter } from 'router/index.js';
+import { setupStore } from 'store/index.js';
+import 'styles/reset.scss';
+import 'styles/themes/default.scss';
+import App from './App.vue';
+
+function setupApp() {
+    const app = createApp(App);
+    /* 初始化store */
+    setupStore(app);
+    /* 初始化router */
+    setupRouter(app);
+
+    app.mount('#app');
+}
+
+setupApp();

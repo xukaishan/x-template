@@ -1,0 +1,7 @@
+# 线上测试： 如 31700、21500、31800...等
+
+VITE_APP_ENV = 'test'
+
+VITE_API_BASE_URL = 'https://192.168.2.215:30070'
+
+VITE_LOGIN_URL = 'https://192.168.2.215:30070'
